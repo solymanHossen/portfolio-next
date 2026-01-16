@@ -5,7 +5,7 @@ import { ProjectShowcase } from "@/components/sections/ProjectShowcase";
 
 export default function ProjectsPage() {
   return (
-    <div className="container max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-24">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}

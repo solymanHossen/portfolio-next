@@ -14,7 +14,7 @@ const heroCommands = [
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 md:px-6 lg:px-8 space-y-24 pb-20">
+    <div className="max-w-7xl mx-auto px-6 lg:px-8 space-y-24 py-12 lg:py-24">
       {/* Hero Section */}
       <section className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-10rem)] py-12">
         <div className="space-y-6 animate-in slide-in-from-left duration-700 fade-in">

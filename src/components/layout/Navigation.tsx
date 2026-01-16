@@ -47,7 +47,7 @@ export const Navigation = () => {
           scrolled ? "glass-strong py-3 backdrop-blur-md bg-opacity-80 border-b" : "py-5"
         )}
       >
-        <nav className="container max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <motion.div
